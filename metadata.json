@@ -1,0 +1,5 @@
+{
+  "name": "Smart Cooking | Recipe Recommendations",
+  "description": "A smart recipe search system that finds meals based on what ingredients you have, featuring allergen ingredient exclusion.",
+  "requestFramePermissions": []
+}

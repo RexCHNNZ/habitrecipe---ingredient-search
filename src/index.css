@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #FF6321;
+  --color-brand-light: #FFF0E9;
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  @apply bg-[#FBFBF9] text-stone-900 antialiased font-sans;
+}
+
+.recipe-card {
+  @apply bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-200/60 transition-all hover:shadow-xl hover:border-brand/20;
+}
+
+.tag {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider transition-all;
+}
+
+.tag-included {
+  @apply bg-brand text-white;
+}
+
+.tag-excluded {
+  @apply bg-red-50 text-red-600 border border-red-100;
+}
+
+.tag-outline {
+  @apply border border-stone-200 text-stone-500;
+}
+
+.editorial-title {
+  @apply font-serif text-4xl md:text-6xl tracking-tight leading-[0.9] mb-6;
+}
+
+.micro-label {
+  @apply text-[10px] font-bold uppercase tracking-[0.2em] text-stone-400;
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-stone-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-stone-300 rounded-full hover:bg-stone-400 transition-colors;
+}

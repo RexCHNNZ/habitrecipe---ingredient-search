@@ -1,0 +1,693 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "ingredients": ["pasta", "eggs", "bacon", "cheese", "pepper", "salt"],
+    "cookTime": 20,
+    "instructions": [
+      "Bring a large pot of salted water to boil and cook pasta according to package directions.",
+      "While pasta cooks, fry bacon in a large pan until crispy.",
+      "In a bowl, whisk together eggs, grated cheese, and black pepper.",
+      "Drain pasta, reserving 1 cup of pasta water.",
+      "Add hot pasta to the pan with bacon, remove from heat.",
+      "Quickly stir in egg mixture, adding pasta water to create a creamy sauce.",
+      "Serve immediately with extra cheese and black pepper."
+    ],
+    "tags": ["italian", "dinner", "pork", "gluten"],
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Tomato Basil Pasta",
+    "ingredients": ["pasta", "tomato", "basil", "garlic", "olive oil", "salt"],
+    "cookTime": 20,
+    "instructions": [
+      "Cook pasta in boiling salted water.",
+      "Sauté minced garlic in olive oil until fragrant.",
+      "Add chopped tomatoes and cook until softened.",
+      "Toss in cooked pasta and fresh basil leaves.",
+      "Season with salt and pepper to taste."
+    ],
+    "tags": ["vegetarian", "quick", "healthy", "gluten"],
+    "image": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Beef Stroganoff",
+    "ingredients": ["beef", "mushrooms", "onion", "butter", "pasta", "sour cream", "flour"],
+    "cookTime": 30,
+    "instructions": [
+      "Sauté sliced beef in butter until browned.",
+      "Add onions and mushrooms, cooking until tender.",
+      "Stir in sour cream and simmer gently.",
+      "Serve over cooked pasta or rice."
+    ],
+    "tags": ["hearty", "dinner", "comfort-food", "gluten"],
+    "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Chicken Stir Fry",
+    "ingredients": ["chicken", "broccoli", "soy sauce", "ginger", "garlic", "oil", "peanuts"],
+    "cookTime": 15,
+    "instructions": [
+      "Cut chicken into bite-sized pieces and brown in oil.",
+      "Add broccoli and sauté until bright green.",
+      "Stir in ginger, garlic, and soy sauce.",
+      "Garnish with roasted peanuts and serve with rice."
+    ],
+    "tags": ["healthy", "quick", "asian", "nuts"],
+    "image": "https://images.unsplash.com/photo-1621515554656-3da68ba128b1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "feta", "olives", "onion", "olive oil", "oregano"],
+    "cookTime": 10,
+    "instructions": [
+      "Chop cucumber, tomato, and onion into chunks.",
+      "Combine in a bowl with olives and crumbled feta.",
+      "Drizzle with olive oil and sprinkle with oregano.",
+      "Toss gently and serve chilled."
+    ],
+    "tags": ["vegetarian", "salad", "no-cook", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Pan-Seared Salmon",
+    "ingredients": ["salmon", "lemon", "asparagus", "butter", "garlic", "thyme"],
+    "cookTime": 15,
+    "instructions": [
+      "Season salmon fillets with salt and pepper.",
+      "Sear in a hot pan with butter and garlic for 4-5 mins per side.",
+      "Sauté asparagus in the same pan until tender-crisp.",
+      "Finish with a squeeze of fresh lemon juice."
+    ],
+    "tags": ["fish", "healthy", "keto", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Pork Chops with Apples",
+    "ingredients": ["pork", "apple", "onion", "cinnamon", "butter", "rosemary"],
+    "cookTime": 25,
+    "instructions": [
+      "Sear pork chops in butter until golden brown.",
+      "Remove pork and sauté sliced apples and onions.",
+      "Add cinnamon and rosemary for aroma.",
+      "Return pork to pan and simmer until cooked through."
+    ],
+    "tags": ["pork", "dinner", "sweet-and-savory"],
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Walnut Pesto Pasta",
+    "ingredients": ["pasta", "walnuts", "basil", "parmesan", "olive oil", "garlic"],
+    "cookTime": 15,
+    "instructions": [
+      "Toast walnuts in a dry pan until fragrant.",
+      "Blend walnuts, basil, garlic, and parmesan with olive oil.",
+      "Toss pesto with freshly cooked pasta.",
+      "Add a splash of pasta water for creaminess."
+    ],
+    "tags": ["vegetarian", "nuts", "gluten", "quick"],
+    "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Tuna Melt",
+    "ingredients": ["tuna", "bread", "cheese", "mayo", "celery", "butter"],
+    "cookTime": 10,
+    "instructions": [
+      "Mix canned tuna with mayo and diced celery.",
+      "Spread on bread slices and top with cheese.",
+      "Butter the outside of the bread.",
+      "Grill in a pan until cheese is melted and bread is golden."
+    ],
+    "tags": ["fish", "lunch", "gluten", "quick"],
+    "image": "https://images.unsplash.com/photo-1645072711678-f76d8555e7c0?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Peanut Butter Noodles",
+    "ingredients": ["noodles", "peanut butter", "soy sauce", "honey", "lime", "chili oil"],
+    "cookTime": 12,
+    "instructions": [
+      "Whisk peanut butter, soy sauce, honey, and lime juice.",
+      "Thin the sauce with a little hot noodle water.",
+      "Toss with cooked noodles and chili oil.",
+      "Top with crushed peanuts if available."
+    ],
+    "tags": ["vegetarian", "nuts", "asian", "quick"],
+    "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Fish Tacos",
+    "ingredients": ["white fish", "tortilla", "cabbage", "lime", "crema", "cilantro"],
+    "cookTime": 20,
+    "instructions": [
+      "Season and grill or fry white fish fillets.",
+      "Shred cabbage and mix with lime juice.",
+      "Warm tortillas and fill with fish and slaw.",
+      "Top with crema and fresh cilantro."
+    ],
+    "tags": ["fish", "mexican", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Bacon Wrapped Asparagus",
+    "ingredients": ["bacon", "asparagus", "pepper", "garlic powder"],
+    "cookTime": 15,
+    "instructions": [
+      "Wrap each asparagus spear with a slice of bacon.",
+      "Season with pepper and garlic powder.",
+      "Roast at 400°F (200°C) until bacon is crispy.",
+      "Serve as a side or appetizer."
+    ],
+    "tags": ["pork", "appetizer", "keto", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Shrimp Scampi",
+    "ingredients": ["shrimp", "pasta", "garlic", "butter", "lemon", "parsley"],
+    "cookTime": 15,
+    "instructions": [
+      "Sauté garlic in butter until fragrant.",
+      "Add shrimp and cook until pink.",
+      "Stir in lemon juice and parsley.",
+      "Toss with cooked pasta."
+    ],
+    "tags": ["fish", "italian", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Pork Fried Rice",
+    "ingredients": ["pork", "rice", "egg", "peas", "carrots", "soy sauce"],
+    "cookTime": 15,
+    "instructions": [
+      "Dice pork and fry until cooked through.",
+      "Scramble eggs in the same pan.",
+      "Add cooked rice, peas, and carrots.",
+      "Stir in soy sauce and fry until well combined."
+    ],
+    "tags": ["pork", "asian", "quick", "dinner"],
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Almond Crusted Chicken",
+    "ingredients": ["chicken", "almonds", "egg", "flour", "lemon", "parsley"],
+    "cookTime": 25,
+    "instructions": [
+      "Crush almonds into fine crumbs.",
+      "Dredge chicken in flour, then egg, then almonds.",
+      "Bake until chicken is cooked and crust is golden.",
+      "Serve with a lemon wedge."
+    ],
+    "tags": ["nuts", "healthy", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Miso Glazed Cod",
+    "ingredients": ["cod", "miso paste", "mirin", "sugar", "ginger", "bok choy"],
+    "cookTime": 20,
+    "instructions": [
+      "Mix miso, mirin, sugar, and ginger into a glaze.",
+      "Coat cod fillets and marinate for 30 mins.",
+      "Broil until fish is flaky and glaze is caramelized.",
+      "Serve with steamed bok choy."
+    ],
+    "tags": ["fish", "asian", "healthy", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1659475828097-80636c630812?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Cashew Chicken",
+    "ingredients": ["chicken", "cashews", "bell pepper", "onion", "soy sauce", "hoisin"],
+    "cookTime": 20,
+    "instructions": [
+      "Stir fry chicken chunks until browned.",
+      "Add peppers, onions, and cashews.",
+      "Stir in soy sauce and hoisin sauce.",
+      "Cook until sauce thickens and coats everything."
+    ],
+    "tags": ["nuts", "asian", "dinner", "quick"],
+    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 18,
+    "name": "BBQ Pulled Pork",
+    "ingredients": ["pork", "bbq sauce", "bun", "coleslaw", "onion", "garlic"],
+    "cookTime": 480,
+    "instructions": [
+      "Slow cook pork with onion and garlic until tender.",
+      "Shred the pork and mix with BBQ sauce.",
+      "Serve on toasted buns with coleslaw.",
+      "A long cook time but worth the effort!"
+    ],
+    "tags": ["pork", "dinner", "american", "gluten"],
+    "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Pecan Crusted Tilapia",
+    "ingredients": ["tilapia", "pecans", "bread crumbs", "butter", "honey", "mustard"],
+    "cookTime": 15,
+    "instructions": [
+      "Mix crushed pecans and bread crumbs.",
+      "Brush tilapia with honey mustard mixture.",
+      "Press pecan crumbs onto the fish.",
+      "Bake until fish is flaky and crust is toasted."
+    ],
+    "tags": ["fish", "nuts", "gluten", "dinner"],
+    "image": "https://images.unsplash.com/photo-1622046751454-c99d3794f96a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Sausage and Peppers",
+    "ingredients": ["pork sausage", "bell pepper", "onion", "garlic", "olive oil", "hoagie roll"],
+    "cookTime": 25,
+    "instructions": [
+      "Brown sausages in a pan and slice.",
+      "Sauté sliced peppers and onions until soft.",
+      "Combine sausage and vegetables with garlic.",
+      "Serve on hoagie rolls."
+    ],
+    "tags": ["pork", "italian", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Mushroom Risotto",
+    "ingredients": ["rice", "mushrooms", "onion", "garlic", "butter", "parmesan", "broth"],
+    "cookTime": 40,
+    "instructions": [
+      "Sauté onions and garlic in butter.",
+      "Add rice and toast slightly.",
+      "Slowly add broth, stirring constantly until absorbed.",
+      "Stir in mushrooms and parmesan at the end."
+    ],
+    "tags": ["vegetarian", "italian", "dinner", "dairy"],
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Chicken Alfredo",
+    "ingredients": ["pasta", "chicken", "cream", "parmesan", "garlic", "butter"],
+    "cookTime": 25,
+    "instructions": [
+      "Cook pasta and set aside.",
+      "Cook chicken strips in butter and garlic.",
+      "Add cream and parmesan to make a sauce.",
+      "Toss everything together."
+    ],
+    "tags": ["italian", "dinner", "dairy", "gluten"],
+    "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Beef Tacos",
+    "ingredients": ["beef", "tortilla", "lettuce", "cheese", "tomato", "onion"],
+    "cookTime": 20,
+    "instructions": [
+      "Brown ground beef with taco seasoning.",
+      "Warm tortillas in a pan.",
+      "Assemble with lettuce, cheese, tomato, and onion."
+    ],
+    "tags": ["mexican", "dinner", "quick", "gluten"],
+    "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Lentil Soup",
+    "ingredients": ["lentils", "carrot", "celery", "onion", "garlic", "tomato", "broth"],
+    "cookTime": 45,
+    "instructions": [
+      "Sauté vegetables until soft.",
+      "Add lentils, broth, and tomatoes.",
+      "Simmer until lentils are tender.",
+      "Season with salt and pepper."
+    ],
+    "tags": ["vegan", "healthy", "soup", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Eggplant Parmesan",
+    "ingredients": ["eggplant", "tomato sauce", "mozzarella", "parmesan", "bread crumbs", "egg"],
+    "cookTime": 50,
+    "instructions": [
+      "Slice and bread eggplant slices.",
+      "Fry or bake until crispy.",
+      "Layer with sauce and cheeses.",
+      "Bake until bubbly and golden."
+    ],
+    "tags": ["vegetarian", "italian", "dinner", "dairy", "gluten"],
+    "image": "https://images.unsplash.com/photo-1625938146369-adc83368bda7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Shrimp Fried Rice",
+    "ingredients": ["shrimp", "rice", "peas", "carrots", "egg", "soy sauce", "onion"],
+    "cookTime": 15,
+    "instructions": [
+      "Cook shrimp and set aside.",
+      "Scramble eggs and set aside.",
+      "Fry vegetables and rice, then add shrimp and eggs back.",
+      "Season with soy sauce."
+    ],
+    "tags": ["fish", "asian", "quick", "dinner"],
+    "image": "https://images.unsplash.com/photo-1665199020996-66cfdf8cba00?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Quinoa Salad",
+    "ingredients": ["quinoa", "cucumber", "tomato", "parsley", "lemon", "olive oil", "feta"],
+    "cookTime": 20,
+    "instructions": [
+      "Cook quinoa and let cool.",
+      "Chop vegetables and mix with quinoa.",
+      "Dress with lemon juice and olive oil.",
+      "Top with feta cheese."
+    ],
+    "tags": ["vegetarian", "healthy", "salad", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Beef Stew",
+    "ingredients": ["beef", "potato", "carrot", "onion", "celery", "broth", "thyme"],
+    "cookTime": 120,
+    "instructions": [
+      "Brown beef chunks in a pot.",
+      "Add vegetables and broth.",
+      "Simmer for 2 hours until beef is tender.",
+      "Season with salt and pepper."
+    ],
+    "tags": ["hearty", "dinner", "comfort-food", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1664741662725-bd131742b7b7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Chicken Quesadilla",
+    "ingredients": ["chicken", "tortilla", "cheese", "onion", "bell pepper", "salsa"],
+    "cookTime": 15,
+    "instructions": [
+      "Cook chicken and vegetables.",
+      "Place on tortilla with cheese and fold.",
+      "Grill until cheese is melted.",
+      "Serve with salsa."
+    ],
+    "tags": ["mexican", "quick", "lunch", "gluten"],
+    "image": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Vegetable Curry",
+    "ingredients": ["potato", "carrot", "peas", "onion", "coconut milk", "curry powder", "garlic"],
+    "cookTime": 30,
+    "instructions": [
+      "Sauté onions and garlic.",
+      "Add vegetables and curry powder.",
+      "Pour in coconut milk and simmer.",
+      "Serve with rice."
+    ],
+    "tags": ["vegan", "asian", "healthy", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Pork Ramen",
+    "ingredients": ["pork", "noodles", "egg", "ginger", "garlic", "soy sauce", "green onion"],
+    "cookTime": 40,
+    "instructions": [
+      "Simmer ginger and garlic in broth.",
+      "Cook noodles and soft-boil eggs.",
+      "Sear pork slices.",
+      "Assemble bowl with broth, noodles, pork, and egg."
+    ],
+    "tags": ["pork", "asian", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Caprese Skewers",
+    "ingredients": ["tomato", "mozzarella", "basil", "balsamic glaze", "olive oil"],
+    "cookTime": 10,
+    "instructions": [
+      "Thread tomato, mozzarella, and basil onto skewers.",
+      "Drizzle with olive oil and balsamic glaze.",
+      "Season with salt and pepper."
+    ],
+    "tags": ["vegetarian", "appetizer", "no-cook", "dairy"],
+    "image": "https://images.unsplash.com/photo-1767114915957-2d2e61d59e7f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Baked Cod",
+    "ingredients": ["cod", "lemon", "butter", "garlic", "parsley", "bread crumbs"],
+    "cookTime": 20,
+    "instructions": [
+      "Place cod in a baking dish.",
+      "Top with melted butter, garlic, and bread crumbs.",
+      "Bake until fish is flaky.",
+      "Garnish with parsley and lemon."
+    ],
+    "tags": ["fish", "healthy", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1733554080207-754bfedf4864?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Stuffed Bell Peppers",
+    "ingredients": ["bell pepper", "beef", "rice", "tomato sauce", "onion", "cheese"],
+    "cookTime": 45,
+    "instructions": [
+      "Cook beef and rice, then mix with sauce.",
+      "Stuff into hollowed bell peppers.",
+      "Top with cheese and bake.",
+      "Serve hot."
+    ],
+    "tags": ["hearty", "dinner", "gluten-free"],
+    "image": "https://images.unsplash.com/photo-1673646960062-9aeb2188335f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Chicken Caesar Salad",
+    "ingredients": ["chicken", "lettuce", "parmesan", "croutons", "caesar dressing"],
+    "cookTime": 15,
+    "instructions": [
+      "Grill chicken and slice into strips.",
+      "Toss lettuce with dressing and parmesan.",
+      "Top with chicken and croutons."
+    ],
+    "tags": ["healthy", "salad", "lunch", "gluten"],
+    "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Pesto Chicken",
+    "ingredients": ["chicken", "basil", "walnuts", "parmesan", "olive oil", "garlic"],
+    "cookTime": 20,
+    "instructions": [
+      "Make pesto by blending basil, walnuts, parmesan, oil, and garlic.",
+      "Spread over chicken breasts.",
+      "Bake until chicken is cooked through."
+    ],
+    "tags": ["nuts", "healthy", "dinner", "dairy"],
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Beef and Broccoli",
+    "ingredients": ["beef", "broccoli", "soy sauce", "ginger", "garlic", "sugar"],
+    "cookTime": 15,
+    "instructions": [
+      "Thinly slice beef and sear in a pan.",
+      "Add broccoli and stir fry.",
+      "Stir in soy sauce, ginger, and garlic.",
+      "Serve with rice."
+    ],
+    "tags": ["asian", "quick", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1606070781631-a7e961f84c9e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Kung Pao Chicken",
+    "ingredients": ["chicken", "peanuts", "dried chilies", "scallions", "soy sauce", "ginger", "garlic", "vinegar", "sugar", "cornstarch"],
+    "cookTime": 25,
+    "instructions": [
+      "Cut chicken into small cubes and marinate with soy sauce and cornstarch.",
+      "SMince garlic and ginger, and cut scallions into small pieces.",
+      "Heat oil in a wok and stir-fry dried chilies and peppercorns until fragrant.",
+      "Add chicken and stir-fry until cooked through.",
+      "Add garlic, ginger, and scallions, and stir-fry for another minute.",
+      "Stir in a sauce made of soy sauce, vinegar, and sugar.",
+      "Add roasted peanuts and toss everything together.",
+      "Serve hot with steamed rice."
+    ],
+    "tags": ["asian", "spicy", "chicken", "nuts", "dinner"],
+    "image": "https://images.unsplash.com/photo-1605704931020-ba62cdb2ba9b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Pork Souvlaki",
+    "ingredients": ["pork", "lemon", "garlic", "oregano", "olive oil", "pita bread"],
+    "cookTime": 20,
+    "instructions": [
+      "Marinate pork in lemon, garlic, and herbs.",
+      "Skewer and grill until cooked.",
+      "Serve in pita bread with tzatziki."
+    ],
+    "tags": ["pork", "greek", "dinner", "gluten"],
+    "image": "https://images.unsplash.com/photo-1605704931020-ba62cdb2ba9b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 40,
+    "name": "Vegetable Lasagna",
+    "ingredients": ["pasta", "spinach", "ricotta", "mozzarella", "tomato sauce", "zucchini"],
+    "cookTime": 60,
+    "instructions": [
+      "Layer pasta sheets with sauce, cheese, and vegetables.",
+      "Repeat layers until pan is full.",
+      "Bake until bubbly and golden."
+    ],
+    "tags": ["vegetarian", "italian", "dinner", "dairy", "gluten"],
+    "image": "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Chicken Enchiladas",
+    "ingredients": ["chicken", "tortilla", "cheese", "enchilada sauce", "onion"],
+    "cookTime": 35,
+    "instructions": [
+      "Roll cooked chicken and cheese into tortillas.",
+      "Place in a dish and cover with sauce and more cheese.",
+      "Bake until melted."
+    ],
+    "tags": ["mexican", "dinner", "dairy", "gluten"],
+    "image": "https://images.unsplash.com/photo-1585238341267-1cfec2046a55?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Beef Stir Fry with Cashews",
+    "ingredients": ["beef", "cashews", "broccoli", "bell pepper", "soy sauce", "ginger"],
+    "cookTime": 15,
+    "instructions": [
+      "Stir fry beef and vegetables.",
+      "Add cashews and sauces.",
+      "Cook until heated through.",
+      "Serve with rice."
+    ],
+    "tags": ["nuts", "asian", "quick", "dinner"],
+    "image": "https://images.unsplash.com/photo-1767324672655-8e0f5e814897?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Salmon with Walnut Crust",
+    "ingredients": ["salmon", "walnuts", "honey", "mustard", "lemon", "parsley"],
+    "cookTime": 15,
+    "instructions": [
+      "Mix crushed walnuts with honey and mustard.",
+      "Press onto salmon fillets.",
+      "Bake until fish is flaky."
+    ],
+    "tags": ["fish", "nuts", "healthy", "dinner"],
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Pork and Apple Salad",
+    "ingredients": ["pork", "apple", "lettuce", "walnuts", "cider vinegar", "olive oil"],
+    "cookTime": 20,
+    "instructions": [
+      "Cook pork and slice into strips.",
+      "Toss with apples, lettuce, and walnuts.",
+      "Dress with vinegar and oil."
+    ],
+    "tags": ["pork", "nuts", "healthy", "salad"],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Gluten-Free Pancakes",
+    "ingredients": ["oat flour", "egg", "milk", "banana", "baking powder", "maple syrup"],
+    "cookTime": 15,
+    "instructions": [
+      "Blend ingredients into a batter.",
+      "Cook on a griddle until golden.",
+      "Serve with syrup."
+    ],
+    "tags": ["vegetarian", "breakfast", "gluten-free", "dairy"],
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Tuna Salad Sandwich",
+    "ingredients": ["tuna", "bread", "mayo", "celery", "onion", "lettuce"],
+    "cookTime": 10,
+    "instructions": [
+      "Mix tuna with mayo and vegetables.",
+      "Spread on bread and top with lettuce."
+    ],
+    "tags": ["fish", "lunch", "quick", "gluten"],
+    "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Chicken Satay",
+    "ingredients": ["chicken", "peanut butter", "soy sauce", "lime", "ginger", "honey"],
+    "cookTime": 20,
+    "instructions": [
+      "Marinate chicken in peanut sauce.",
+      "Skewer and grill.",
+      "Serve with extra sauce."
+    ],
+    "tags": ["nuts", "asian", "appetizer", "pork-free"],
+    "image": "https://images.unsplash.com/photo-1606471191009-63994c53433b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Beef and Mushroom Pasta",
+    "ingredients": ["beef", "mushrooms", "pasta", "garlic", "onion", "cream"],
+    "cookTime": 25,
+    "instructions": [
+      "Cook beef and mushrooms.",
+      "Add cream and garlic to make a sauce.",
+      "Toss with pasta."
+    ],
+    "tags": ["hearty", "dinner", "dairy", "gluten"],
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Pork and Broccoli Stir Fry",
+    "ingredients": ["pork", "broccoli", "soy sauce", "garlic", "ginger", "oil"],
+    "cookTime": 15,
+    "instructions": [
+      "Stir fry pork and broccoli.",
+      "Add seasonings and cook until tender."
+    ],
+    "tags": ["pork", "asian", "quick", "dinner"],
+    "image": "https://images.unsplash.com/photo-1606070781631-a7e961f84c9e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Fish and Chips",
+    "ingredients": ["white fish", "potato", "flour", "egg", "oil", "lemon"],
+    "cookTime": 30,
+    "instructions": [
+      "Batter fish and fry until golden.",
+      "Fry potato wedges.",
+      "Serve with lemon."
+    ],
+    "tags": ["fish", "dinner", "gluten", "british"],
+    "image": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?auto=format&fit=crop&w=800&q=80"
+  }
+]
